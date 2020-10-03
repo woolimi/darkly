@@ -10,7 +10,7 @@ If we try to login with any username and password, data is sent with GET request
 /index.php?page=signin&username=any_id&password=any_password&Login=Login#
 ```
 
-In many case, administration id is `admin`, so let's try brute force attack with it. To execute attack, `bruteforce.sh [server_ip]`
+In many case, administration id is `admin`, so let's try brute force attack with it. To execute attack, `sh getflag.sh [server_ip]`
 
 ## Vulnerability
 Guessable id and password are vulnarable by brute force attack.

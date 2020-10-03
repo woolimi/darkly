@@ -1,5 +1,5 @@
 # Survey
-http://192.168.122.111/index.php?page=survey
+/index.php?page=survey
 
 ## How to get flag
 Inspect HTML and change any value of option in select tag.

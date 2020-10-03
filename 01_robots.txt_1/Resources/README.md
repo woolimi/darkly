@@ -13,18 +13,19 @@ Disallow: /.hidden
 We are going to see /whatever
 
 ## How to get flag
-1. http://192.168.122.111/whatever
+1. /whatever
 check htpasswd file
 ```
 root:8621ffdbc5698829397d97767ac13db3
 ```
-Use https://hashtoolkit.com/ to decrypt password => `dragon`
+
+2. Use https://hashtoolkit.com/ to decrypt password => `dragon`
 Find web content url by using dirb
 ```
 sudo apt install dirb
-dirb http://192.168.122.111
+dirb http://server_ip
 ```
-go to admin page http://192.168.122.111/admin/
+go to admin page http://server_ip/admin/
 id : root , password: dragon
 
 ## Vulnerability
@@ -36,4 +37,3 @@ Set proper permisson of sensitive folder and files.
 
 ## Resouces
 * (OWASP - Review Webserver Metafiles for Information Leakage)[https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.html]
-

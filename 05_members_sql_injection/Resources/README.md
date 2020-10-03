@@ -1,10 +1,10 @@
 # member sql injection
-http://192.168.122.111/index.php?page=member
+/index.php?page=member
 
 ## How to get flag
 This page is supposed to show members's info depends on members's id.
 ```
-http://192.168.122.111/index.php?page=member&id=1&Submit=Submit#
+/index.php?page=member&id=1&Submit=Submit#
 ```
 
 1. Fingerprinting MySQL

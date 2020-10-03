@@ -27,7 +27,8 @@ Anyone can be admin by changing cookies
 
 ## How to Fix
 Better not to save important data in cookies. Save in Database.
+For the session management, it is recommended to create cryptographically strong session IDs 
 
 ## Resouces
 * (OWASP - Testing for Cookies Attributes)[https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html]
-
+* (OWASP - Session Management)[https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html]

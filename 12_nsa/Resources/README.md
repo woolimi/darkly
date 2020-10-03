@@ -2,7 +2,7 @@
 /?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
 
 ## How to get flag
-If you inspect this page, you can find comment.
+Inspect the page, you can find comment below.
 ```HTML
 <!--
 You must cumming from : "https://www.nsa.gov/" to go to the next step
@@ -20,10 +20,12 @@ sh getflag.sh [server_ip]
 ```
 
 ## Vulnerability
-None
+Like we just saw, HTTP request header can be manipulated. Make sure that if there is some critical logic with HTTP request header in server-side.
+
+For example, if you only allow user to enter in certain page A from certain page B, checking referrer is not good idea.
 
 ## How to Fix
-Nothing to fix. Just note that `referer` and `uger-agent` can be manipulated. 
+Nothing to fix. Just note that `referer` and `user-agent` can be manipulated. 
 
 ## Resouces
 (referer)[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer]

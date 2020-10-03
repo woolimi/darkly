@@ -1,7 +1,7 @@
 # /bin/sh
 
 if [ -z "$1" ]; then
-	echo "Usage: sh bruteforce.sh [server_ip]"
+	echo "Usage: sh getflag.sh [server_ip]"
 	exit 1
 fi
 
