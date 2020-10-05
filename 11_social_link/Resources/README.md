@@ -3,7 +3,7 @@
 ## How to get flag
 Inspect social link elements and change value of `site` params. For example, `site=whatever`
 ```
-<a href="index.php?page=redirect&amp;site=whateer" class="icon fa-facebook"></a>
+<a href="index.php?page=redirect&amp;site=whatever" class="icon fa-facebook"></a>
 ```
 
 ## Vulnerability

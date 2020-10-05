@@ -46,6 +46,7 @@ Hacker can get any data from db.
 ## How to Fix
 1. Fingerprinting the Database : Don't show error message
 2. Don't construct queries with user-provided data. Use PDO instead if it is PHP. 
+3. use API
 
 ## Resouces
 (Testing for SQL Injection)[https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.html]

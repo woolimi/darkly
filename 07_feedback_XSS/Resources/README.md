@@ -1,4 +1,4 @@
-# Feedback HTML injection
+# Feedback XSS
 /index.php?page=feedback
 
 ## How to get flag
